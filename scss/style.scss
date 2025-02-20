@@ -7,6 +7,32 @@ html {
         min-height: 100vh;
         background-color: #fefefe;
         margin: 0;
-        
+        header {
+
+        }
+        main {
+            .tortenete {
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-direction: column;
+                padding: 20px;
+            }
+            .gazdasag {
+                @extend .tortenete;
+            }
+            .statok {
+                padding: 20px;
+            }
+            .programok {
+                @extend .tortenete;
+            }
+            .forma1 {
+                @extend .tortenete;
+            }
+        }
+        footer {
+
+        }
     }
 }
