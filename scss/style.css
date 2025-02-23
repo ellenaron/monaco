@@ -23,6 +23,12 @@ main {
   padding-top: 70px;
 }
 
+
+main > div {
+  scroll-margin-top: 80px; 
+}
+
+
 header {
   position: fixed;
   top: 0;
