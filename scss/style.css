@@ -8,82 +8,56 @@ html body {
   background-color: #fefefe;
   margin: 0;
 }
-html body main .tortenete, html body main .forma1, html body main .programok, html body main .gazdasag {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-  padding: 20px;
-}
-html body main .statok {
-  padding: 20px;
-}/*# sourceMappingURL=style.css.map */
-
-main {
-  padding-top: 70px;
-}
-
-header {
-  position: fixed;
+html body header {
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
   padding: 10px 5px;
   background: #0A0908;
   display: flex;
-  justify-content:space-between ;
+  justify-content: space-between;
   align-items: center;
   z-index: 100;
   overflow: hidden;
-  
 }
-
-nav {
+html body nav {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
-
 }
-
-nav a {
+html body nav a {
   font-size: 18px;
   color: #EAE0D5;
   text-decoration: none;
   font-weight: 500;
   padding: 10px 15px;
-  white-space: nowrap; 
+  white-space: nowrap;
   margin-left: 20px;
-  transition: .3s;
+  transition: 0.3s;
 }
-
-nav a:hover ,
-nav a.active{
+html body nav a:hover,
+html body nav a.active {
   color: #C6AC8E;
 }
-
 @media (max-width: 768px) {
-  header {
+  html body header {
     padding: 15px 20px;
   }
-
-  nav {
-    flex-direction: column; 
+  html body nav {
+    flex-direction: column;
     align-items: flex-start;
   }
 }
-
-.logo {
+html body .logo {
   margin-left: 50px;
   text-decoration: none;
-  
-  
 }
-
-#logo_zaszlo {
+html body #logo_zaszlo {
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  
+    
 }
 
 /* footer és a mainből 150px lent hozzáadás   */
@@ -130,4 +104,32 @@ iframe {
 }
 main{
   padding-bottom: 150px;
+
+}
+html body main .tortenete {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 20px;
+  font-size: large;
+}
+html body main .tortenete img {
+  width: 30vw;
+  float: right;
+  margin: 0px 0px 0px 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+html body main .gazdasag, html body main .forma1, html body main .programok {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 20px;
+  font-size: large;
+}
+html body main .statok {
+  padding: 20px;
+
 }
