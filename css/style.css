@@ -108,64 +108,69 @@ html body main .statok {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
+}
   
-  .footer-content {
+.footer-content {
     position: relative;
     left: 40px;
     font-size: 18px;
     bottom: 45px;
-  }
+}
   
-  .wave {
+.wave {
     position: absolute;
     bottom: 420px;
     height: 100%;
     width: 100%;
     left: 0;
-  }
+}
   
-  .map-container {
+.map-container {
     width: 300px;
     height: 200px;
     border-radius: 10px;
     overflow: hidden;
-  }
+}
   
-  iframe {
+iframe {
     position: absolute;
     bottom: 30px;
     right: 50px;
     width: 30%;
     height: 100%;
     border: 1px solid #000000;;
-  }
-  main{
+}
+
+main {
     padding-bottom: 150px;
-  }
-  html body main .tortenete {
+}
+
+html body main .tortenete {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
     padding: 20px;
     font-size: large;
-  }
-  html body main .tortenete img {
+}
+
+html body main .tortenete img {
     width: 30vw;
     float: right;
     margin: 0px 0px 0px 20px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
-  }
-  html body main .gazdasag, html body main .forma1, html body main .programok {
+}
+
+html body main .gazdasag, html body main .forma1, html body main .programok {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
     padding: 20px;
     font-size: large;
-  }
-  html body main .statok {
+}
+
+html body main .statok {
     padding: 20px;
-  }
+}
