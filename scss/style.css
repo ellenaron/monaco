@@ -57,9 +57,6 @@ html body #logo_zaszlo {
   height: 50px;
   width: 50px;
   border-radius: 50%;
-<<<<<<< HEAD
-=======
-    
 }
 
 /* footer és a mainből 150px lent hozzáadás   */
@@ -106,8 +103,6 @@ iframe {
 }
 main{
   padding-bottom: 150px;
-
->>>>>>> cucc
 }
 html body main .tortenete {
   display: flex;
@@ -134,8 +129,4 @@ html body main .gazdasag, html body main .forma1, html body main .programok {
 }
 html body main .statok {
   padding: 20px;
-<<<<<<< HEAD
-=======
-
->>>>>>> cucc
 }
