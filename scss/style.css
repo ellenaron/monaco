@@ -9,7 +9,7 @@ html body {
   margin: 0;
 }
 html body header {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
@@ -58,13 +58,29 @@ html body #logo_zaszlo {
   width: 50px;
   border-radius: 50%;
 }
-html body main .tortenete, html body main .forma1, html body main .programok, html body main .gazdasag {
+html body main .tortenete {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
   padding: 20px;
+  font-size: large;
+}
+html body main .tortenete img {
+  width: 30vw;
+  float: right;
+  margin: 0px 0px 0px 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+html body main .gazdasag, html body main .forma1, html body main .programok {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 20px;
+  font-size: large;
 }
 html body main .statok {
   padding: 20px;
-}/*# sourceMappingURL=style.css.map */
+}
