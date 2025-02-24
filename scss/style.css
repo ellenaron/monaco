@@ -8,6 +8,56 @@ html body {
   background-color: #fefefe;
   margin: 0;
 }
+html body header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 5px;
+  background: #0A0908;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  overflow: hidden;
+}
+html body nav {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+html body nav a {
+  font-size: 18px;
+  color: #EAE0D5;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 10px 15px;
+  white-space: nowrap;
+  margin-left: 20px;
+  transition: 0.3s;
+}
+html body nav a:hover,
+html body nav a.active {
+  color: #C6AC8E;
+}
+@media (max-width: 768px) {
+  html body header {
+    padding: 15px 20px;
+  }
+  html body nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+html body .logo {
+  margin-left: 50px;
+  text-decoration: none;
+}
+html body #logo_zaszlo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
 html body main .tortenete, html body main .forma1, html body main .programok, html body main .gazdasag {
   display: flex;
   justify-content: flex-start;
@@ -18,76 +68,3 @@ html body main .tortenete, html body main .forma1, html body main .programok, ht
 html body main .statok {
   padding: 20px;
 }/*# sourceMappingURL=style.css.map */
-
-main {
-  padding-top: 70px;
-}
-
-
-main > div {
-  scroll-margin-top: 80px; 
-}
-
-
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 10px 5px;
-  background: #0A0908;
-  display: flex;
-  justify-content:space-between ;
-  align-items: center;
-  z-index: 100;
-  overflow: hidden;
-  
-}
-
-nav {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-
-}
-
-nav a {
-  font-size: 18px;
-  color: #EAE0D5;
-  text-decoration: none;
-  font-weight: 500;
-  padding: 10px 15px;
-  white-space: nowrap; 
-  margin-left: 20px;
-  transition: .3s;
-}
-
-nav a:hover ,
-nav a.active{
-  color: #C6AC8E;
-}
-
-@media (max-width: 768px) {
-  header {
-    padding: 15px 20px;
-  }
-
-  nav {
-    flex-direction: column; 
-    align-items: flex-start;
-  }
-}
-
-.logo {
-  margin-left: 50px;
-  text-decoration: none;
-  
-  
-}
-
-#logo_zaszlo {
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  
-}
