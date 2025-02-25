@@ -226,6 +226,10 @@ html body main .statok {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
+p {
+    font-size: larger;
+}
+
 @media (max-width: 768px) {
     .torteneteimg {
         float: none;
