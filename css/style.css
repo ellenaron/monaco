@@ -99,7 +99,7 @@ html body nav a:hover, html body nav a.active {
 }
 
 /* footer és a mainből 150px lent hozzáadás   */
-
+/*
 .footer {
     position: relative;
     background: #0A0908;
@@ -116,7 +116,7 @@ html body nav a:hover, html body nav a.active {
     font-size: 18px;
     bottom: 45px;
 }
-  
+
 .wave {
     position: absolute;
     bottom: 420px;
@@ -124,7 +124,8 @@ html body nav a:hover, html body nav a.active {
     width: 100%;
     left: 0;
 }
-  
+
+
 .map-container {
     width: 300px;
     height: 200px;
@@ -132,6 +133,8 @@ html body nav a:hover, html body nav a.active {
     overflow: hidden;
 }
   
+
+
 iframe {
     position: absolute;
     bottom: 30px;
@@ -140,6 +143,57 @@ iframe {
     height: 100%;
     border: 1px solid #000000;;
 }
+
+*/
+footer {
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+}
+
+.footerwave {
+    aspect-ratio: 1000 / 150;
+    background: url(svg/wave-haikei.svg) no-repeat center;
+    background-size: cover; 
+}
+
+.footercont {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nevek {
+    padding: 20px;
+}
+
+.footeriframe {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    right: 30px;
+    bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .footercont {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footeriframe {
+        right: 0;
+        bottom: 0;
+        width: 100%;
+    }
+}
+
+
+
+
 
 main {
     padding-bottom: 150px;
