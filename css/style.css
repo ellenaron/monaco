@@ -225,3 +225,11 @@ html body main .statok {
     border-radius: 5px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
+
+@media (max-width: 768px) {
+    .torteneteimg {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+}
