@@ -293,3 +293,9 @@ li {
         margin: 0;
     }
 }
+
+@media (max-width: 500px) {
+    p, li {
+        font-size: large;
+    }
+}
