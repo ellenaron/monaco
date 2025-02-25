@@ -153,7 +153,7 @@ footer {
 
 .footerwave {
     aspect-ratio: 1000 / 150;
-    background: url(svg/wave-haikei.svg) no-repeat center;
+    background: url(../svg/footerwave.svg) no-repeat center;
     background-size: cover; 
 }
 
@@ -162,15 +162,17 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #0A0908;
 }
 
 .nevek {
     padding: 20px;
+    color: #fefefe;
 }
 
 .footeriframe {
-    width: 500px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
     position: relative;
     right: 30px;
     bottom: 30px;
@@ -190,10 +192,6 @@ footer {
         width: 100%;
     }
 }
-
-
-
-
 
 main {
     padding-bottom: 150px;
@@ -281,6 +279,10 @@ html body main .statok {
 }
 
 p {
+    font-size: larger;
+}
+
+li {
     font-size: larger;
 }
 
