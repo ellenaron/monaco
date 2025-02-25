@@ -7,7 +7,7 @@ html {
 
 html body {
     min-height: 100vh;
-    background-color: #fefefe;
+    background-color: #EAE0D5;
     margin: 0;
 }
 
@@ -173,4 +173,22 @@ html body main .gazdasag, html body main .forma1, html body main .programok {
 
 html body main .statok {
     padding: 20px;
+}
+
+.svgwave {
+    aspect-ratio: 1000 / 150;
+    background: url(../svg/whitegoldwave.svg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+}
+
+.svgwave2 {
+    aspect-ratio: 1000 / 150;
+    background: url(../svg/whitegoldwaveflipped.svg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+}
+
+.gazdasag {
+    background-color: #C6AC8E;
 }
