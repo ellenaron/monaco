@@ -176,36 +176,31 @@ html body main .statok {
     padding: 20px;
 }
 
-.svgwave {
+.wave {
     aspect-ratio: 1000 / 150;
-    background: url(../svg/whitegoldwave.svg) no-repeat center;
+    background: no-repeat center;
     background-size: cover;
     width: 100%;
 }
 
-.svgwave2 {
-    aspect-ratio: 1000 / 150;
-    background: url(../svg/whitegoldwaveflipped.svg) no-repeat center;
-    background-size: cover;
-    width: 100vw;
+.layer1 {
+    background-image: url(../svg/whitegoldwave.svg);
+}
+
+.layer2 {
+    background-image: url(../svg/whitegoldwaveflipped.svg);
 }
 
 .gazdasag {
     background-color: #C6AC8E;
 }
 
-.svgwave3 {
-    aspect-ratio: 1000 / 150;
-    background: url(../svg/brownwhitewave.svg) no-repeat center;
-    background-size: cover;
-    width: 100vw;
+.layer3 {
+    background-image: url(../svg/brownwhitewave.svg);
 }
 
-.svgwave4 {
-    aspect-ratio: 1000 / 150;
-    background: url(../svg/brownwhitewaveflipped.svg) no-repeat center;
-    background-size: cover;
-    width: 100%;
+.layer4 {
+    background-image: url(../svg/brownwhitewaveflipped.svg);
 }
 
 .programok {
