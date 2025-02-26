@@ -16,7 +16,6 @@ html body header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 10px 5px;
     background: #0A0908;
     display: flex;
     justify-content: space-between;
@@ -47,10 +46,6 @@ html body nav a:hover, html body nav a.active {
 }
 
 @media (max-width: 768px) {
-    html body header {
-        padding: 15px 20px;
-    }
-
     html body nav {
         flex-direction: column;
         align-items: flex-start;
