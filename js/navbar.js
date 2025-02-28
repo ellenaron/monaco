@@ -18,3 +18,13 @@ window.addEventListener('scroll', () => {
         }
     });
 });
+
+const collBtn = document.getElementById("collapse");
+const navbar = document.getElementById("navbar");
+
+function toggleNavbar() {
+    navbar.classList.toggle("toggled");
+    collBtn.classList.toggle("toggled");
+}
+
+collBtn.addEventListener("click", () => toggleNavbar());
