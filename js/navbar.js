@@ -1,4 +1,4 @@
-let sections = document.querySelectorAll('main > div'); // Csak a fő tartalmi részeket figyeljük
+let sections = document.querySelectorAll('main > div'); 
 let navLinks = document.querySelectorAll('header nav a');
 
 window.addEventListener('scroll', () => {
@@ -28,3 +28,5 @@ function toggleNavbar() {
 }
 
 collBtn.addEventListener("click", () => toggleNavbar());
+
+

@@ -59,7 +59,7 @@ nav {
     overflow: hidden;
     transition: .3s ease;
     overflow: hidden;
-    height: 49px;
+    height: 60px;
 }
 
 nav.toggled {
@@ -316,3 +316,46 @@ li {
     }
 }
 
+#tortenete,
+#gazdasag,
+#statok,
+#programok,
+#forma1 {
+    position: relative;
+    padding-top: 60px; 
+    scroll-margin-top: 60px; 
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; 
+}
+
+#historical {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    margin-top: 50px; 
+    padding: 20px;
+}
+
+#historical h2 {
+    font-size: 36px; 
+    margin-bottom: 20px; 
+}
+
+#logos {
+    display: flex; 
+    justify-content: center; 
+    gap: 30px; 
+}
+
+#logos img {
+    height: 80px; 
+    width: auto; 
+}
